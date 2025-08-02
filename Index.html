@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Expense Tracker</title>
+  <style>
+    body {
+      background: #f7f7f7;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    .container {
+      max-width: 340px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    .balance {
+      text-align: center;
+      font-size: 1.3em;
+      margin-bottom: 16px;
+      color: #219150;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      border-bottom: 1px solid #eee;
+      padding: 8px 0;
+      display: flex;
+      justify-content: space-between;
+      color: #444;
+    }
+    .amount {
+      min-width: 70px;
+      text-align: right;
+    }
+    .nav {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .nav a {
+      color: #3498db;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 0.9em;
+    }
+    .nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Expense Tracker</h2>
+    <div class="balance">Balance: ₹770</div>
+    <ul>
+      <li>
+        <span>Lunch</span>
+        <span class="amount">- ₹150</span>
+      </li>
+      <li>
+        <span>Transport</span>
+        <span class="amount">- ₹80</span>
+      </li>
+      <li>
+        <span>Pocket Money</span>
+        <span class="amount">+ ₹1,000</span>
+      </li>
+    </ul>
+  </div>
+ <div class="container nav">
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="add.html">Add</a>
+    <a href="exp.html">Exp</a>
+    <a href="manage.html">Manage</a>
+    <a href="report.html">Reports</a>
+    <a href="profile.html">Settings</a>
+  </div>
+</body>
+</html>

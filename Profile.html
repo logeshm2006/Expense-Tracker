@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Settings</title>
+  <style>
+    body {
+      background: #f7f7f7;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    .container {
+      max-width: 340px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      border-bottom: 1px solid #eee;
+      padding: 8px 0;
+      display: flex;
+      justify-content: space-between;
+      color: #444;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background-color: #219150;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background-color: #1a7a42;
+    }
+    .nav {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .nav a {
+      color: #3498db;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 0.9em;
+    }
+    .nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Profile Settings</h2>
+    <ul>
+      <li>
+        <span>Name</span>
+        <span><input type="text" value="John Doe" style="border: none; text-align: right; font-family: Arial, sans-serif;"></span>
+      </li>
+      <li>
+        <span>Email</span>
+        <span><input type="email" value="john.doe@email.com" style="border: none; text-align: right; font-family: Arial, sans-serif;"></span>
+      </li>
+      <li>
+        <span>Password</span>
+        <span><input type="password" value="******" style="border: none; text-align: right; font-family: Arial, sans-serif;"></span>
+      </li>
+    </ul>
+    <button class="btn" style="margin-top: 10px;">Save</button>
+  </div>
+<div class="container nav">
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="add.html">Add</a>
+    <a href="exp.html">Exp</a>
+    <a href="manage.html">Manage</a>
+    <a href="report.html">Reports</a>
+    <a href="profile.html">Settings</a>
+  </div>
+</html>
